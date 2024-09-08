@@ -1,0 +1,29 @@
+{
+    "name": "green-elephpant/code-bench-laravel",
+    "description": "A package to conveniently use CodeBench in your Laravel project",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "green-elephpant/code-bench": "^v0.1.0"
+    },
+    "license": "GNU GPLv3",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Carsten Windler",
+            "email": "carsten@carstenwindler.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GreenElephpant\\CodeBenchLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GreenElephpant\\CodeBenchLaravel\\CodeBenchServiceProvider"
+            ]
+        }
+    }
+}

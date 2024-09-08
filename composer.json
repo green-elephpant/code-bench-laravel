@@ -6,8 +6,7 @@
         "php": ">=7.4",
         "green-elephpant/code-bench": "^v0.1.0"
     },
-    "license": "GNU GPLv3",
-    "version": "v1.0.0",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Carsten Windler",

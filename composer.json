@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=7.4",
-        "green-elephpant/code-bench": "^v0.1.0"
+        "green-elephpant/code-bench": "^v1.0.0"
     },
     "license": "GPL-3.0-or-later",
     "authors": [

@@ -2,9 +2,15 @@
     "name": "green-elephpant/code-bench-laravel",
     "description": "A package to conveniently use CodeBench in your Laravel project",
     "type": "library",
+    "keywords": [
+        "laravel",
+        "benchmarking",
+        "performance"
+    ],
     "require": {
         "php": ">=7.4",
-        "green-elephpant/code-bench": "^v1.0.0"
+        "green-elephpant/code-bench": "^v1.0.0",
+        "illuminate/support": "^10.0|^11.0|^12.0"
     },
     "license": "GPL-3.0-or-later",
     "authors": [
